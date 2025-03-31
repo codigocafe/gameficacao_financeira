@@ -22,3 +22,22 @@
   padding: 8px 0;
   width: calc(10% - 2px);
 }
+
+.table-numbers ul li button {
+  background-color: tomato;
+  border: solid 1px tomato;
+  border-radius: 3px;
+  box-shadow: 0 2px 0px rgba(255, 255, 255, 0.5) inset;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2.5rem;
+  width: 90%;
+}
+
+.table-numbers ul li button[data-paid="true"] {
+  background-color: limegreen;
+  border-color: limegreen;
+  color: darkgreen;
+}
